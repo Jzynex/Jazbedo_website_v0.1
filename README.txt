@@ -1,7 +1,7 @@
 JAZBEDO — personal creator site
 ================================
 
-This folder is the whole website. It is plain HTML, CSS, and JavaScript.
+This repo is the whole website. It is plain HTML, CSS, and JavaScript.
 No install step, no build tool, no account, and no payment is required
 to edit it. You can open index.html on your own computer before you
 publish.
@@ -54,12 +54,11 @@ js/site.js          Opening curtain and larger pictures. Optional.
 favicon.svg         Small tab icon.
 images/hero.svg     Stand-in portrait. Replace with your artwork.
 images/gallery/     Stand-in cosplay plates. Replace with photos.
-audio/*.mp3         Silent placeholders. Replace with your recordings.
 README.txt          This guide.
 .nojekyll           Lets GitHub Pages serve the folder as-is.
 
 
-4. Where to put your files
+4. Where to put my files
 --------------------------
 
 Portrait
@@ -83,21 +82,6 @@ Cosplay
   caption is only a reminder; you can delete the <span class="path">
   once you no longer need it.
 
-Voice
-  Replace the files in audio/ and keep the same names, or change both
-  the filename and the matching src/href in index.html:
-    audio/masculine.mp3
-    audio/feminine.mp3
-    audio/impressions.mp3
-    audio/languages.mp3
-    audio/reel.mp3
-  The included files are a fraction of a second of silence so the
-  player has something to open. They are not voice recordings.
-  Delete the sentence "Silent placeholder. This is not a recorded
-  sample." after you add a real clip.
-  Keep preload="none" so the audio is not downloaded until someone
-  presses play.
-
 Compressing images for free
   Phone photos are often 3–8 MB. That is too heavy for this site.
   1. Shrink the long edge to about 1600px (full) or 800px (thumbnail).
@@ -112,7 +96,7 @@ Compressing images for free
   5. Do not upload camera originals. Avoid PNG for photos; PNG is for
      flat drawings and the icon.
 
-A typical visit, before your photos, is well under 150 KB. After you
+A typical visit, before my photos, is well under 150 KB. After you
 add a portrait and a few thumbs it should stay near 150–400 KB if you
 follow the sizes above. Large files are not loaded until a visitor
 opens that picture or presses play.
